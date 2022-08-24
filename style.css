@@ -64,6 +64,7 @@ p{
     font-size: 1em;
     margin-top: 0;
     font-weight: 400;
+    text-shadow: 0 0 4px hsl(178, 100%, 50%);
 }
 
 #time{
@@ -84,6 +85,7 @@ p{
     font-weight: 300;
     font-size: 1em;
     margin-top: 0;
+    text-shadow: 0 0 4px hsl(215, 51%, 70%);
 }
 
 footer{
