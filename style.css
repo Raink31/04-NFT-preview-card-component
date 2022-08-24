@@ -132,7 +132,7 @@ footer a{
 .attribution{
     margin-top: 1%;
     color: white;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 .attribution a{
@@ -156,4 +156,9 @@ footer a:hover{
     transition: 0.2s;
 }
 
-
+@media screen and (min-width: 560px)
+{
+    .attribution{
+        font-size: 0.9em;
+    }
+}
