@@ -1,166 +1,135 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS */
 
 body{
-    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
     display: flex;
-    height: 100vh;
-    width: 100vw;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    background-color: hsl(217, 54%, 11%);
 }
 
-#main{
+.container{
+    max-width: 375px;
+}
+
+.wrapper{
     background-color: hsl(216, 50%, 16%);
     border-radius: 20px;
+    overflow: hidden;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-box{
+    margin-top: 8.5%;
     position: relative;
+    max-width: 85%;
 }
 
-#image_nft{
-    width: 300px;
+.img-box img{
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
-    margin: 7% 7%;
-    margin-bottom: 0%;
 }
 
-#text{
-    margin-left: 7%;
-    font-family: "Outfit", sans-serif;
-    width: 350px;
+.text-box{
+    width: 86%;
 }
 
-h1{
+.title h1{
     color: white;
-    font-size: 1.55em;
+    font-weight: 600;
+    font-size: 1.25em;
+    padding-top: 8.5%;
+    letter-spacing: 1px;
 }
 
-p{
-    font-size: 1.1em;
-    font-weight: 300;
+.title h1:hover{
+    color: hsl(178, 100%, 50%);
+    transition: 1s;
+}
+
+.description p{
     color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    padding-top: 6.5%;
+    font-size: 0.95em;
+    line-height: 25px;
 }
 
-#prix_temps{
+.price-time{
     display: flex;
     justify-content: space-between;
-    width: 350px;
-    margin: 0 0%;
+    padding-top: 8.5%;
+    align-items: center;
 }
 
-#price{
+.price{
     display: flex;
-    width: 50%;
+    align-items: center;
 }
 
-#price img{
-    height: 20px;
-    width: 12px;
-    margin-right: 5%;
-    margin-top: 1%;
+.price img{
+    width: 11%;
 }
 
-#price h2{
-    color: hsl(178, 100%, 50%);
-    font-size: 1em;
-    margin-top: 0;
+.price p{
+    margin-left: 7px;
+    font-size: 0.9em;
     font-weight: 400;
-    text-shadow: 0 0 4px hsl(178, 100%, 50%);
+    color: hsl(178, 100%, 50%);
 }
 
-#time{
+.time{
     display: flex;
-    width: 50%;
-    margin-left: 14%;
+    align-items: center;
 }
 
-#time img{
-    height: 17px;
-    width: 17px;
-    margin-right: 5%;
-    margin-top: 1%;
+.time img{
+    width: 23%;
 }
 
-#time h2{
+.time p{
+    width: 100%;
+    margin-left: 7px;
+    font-size: 0.9em;
     color: hsl(215, 51%, 70%);
-    font-weight: 300;
-    font-size: 1em;
-    margin-top: 0;
-    text-shadow: 0 0 4px hsl(215, 51%, 70%);
 }
 
 footer{
     display: flex;
     align-items: center;
-    margin-top: 1%;
-    margin-bottom: 4%;
-    border-top: 1px solid hsl(215, 32%, 27%);
-    width: 300px;
-    margin-left: 0;
-    margin-right: 0;
+    padding-top: 5%;
+    margin-top: 5%;
+    padding-bottom: 8.5%;
+    border-top: 1px solid hsl(215, 51%, 70%, 30%);
 }
 
 footer img{
-    width: 30px;
-    height: 30px;
-    margin-right: 5%;
+    width: 11%;
     border: 1px solid white;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 footer p{
-    margin-top: 6%;
-    font-size: 1.05em;
+    margin-left: 5%;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 0.95em;
 }
 
 footer a{
-    color: white;
     text-decoration: none;
-}
-
-#container{
-    position: relative;
-}
-
-#view{
-    position: absolute;
-    background-color: hsla(178, 100%, 50%, 0.5);
-    padding: 126px;
-    left: 7%;
-    top: 7.5%;
-    border-radius: 10px;
-    opacity: 0;
-}
-
-.attribution{
-    margin-top: 1%;
     color: white;
-    font-size: 0.8em;
 }
 
-.attribution a{
-    color: cyan;
-}
-
-h1:hover{
-    color: hsl(178, 100%, 50%);
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-footer a:hover{
-    color: hsl(178, 100%, 50%);
-    transition: 0.2s;
-}
-
-#view:hover{
-    cursor: pointer;
-    opacity: 100;
-    transition: 0.2s;
-}
-
-@media screen and (min-width: 560px)
-{
-    .attribution{
-        font-size: 0.9em;
-    }
-}
