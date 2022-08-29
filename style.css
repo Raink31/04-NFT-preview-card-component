@@ -52,11 +52,11 @@ body{
     font-size: 1.25em;
     padding-top: 8.5%;
     letter-spacing: 1px;
+    transition: 1s;
 }
 
 .title h1:hover{
     color: hsl(178, 100%, 50%);
-    transition: 1s;
 }
 
 .description p{
