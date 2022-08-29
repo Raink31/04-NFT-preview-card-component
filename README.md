@@ -10,8 +10,7 @@ Your challenge is to build out this card component and get it looking as close t
 
 ## Screenshot
 
-### Screenshot
-![screenshot](./assets/images/mobile.png)
+![screenshot](./assets/images/desktop.png)
 
 
 ## Links
