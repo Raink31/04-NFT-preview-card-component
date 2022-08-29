@@ -10,7 +10,7 @@ Your challenge is to build out this card component and get it looking as close t
 
 ## Screenshot
 
-### Screnshot
+### Screenshot
 ![screenshot](./assets/images/mobile.png)
 
 
