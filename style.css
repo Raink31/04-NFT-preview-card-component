@@ -36,7 +36,7 @@ body{
     margin-top: 8.5%;
     position: relative;
     max-width: 85%;
-    height: 290px;
+    height: 100%;
 }
 
 .img-box img{
@@ -49,9 +49,12 @@ body{
 .img-box::after{
     position: absolute;
     content: url("assets/images/icon-view.svg");
-    left: 42.5%;
-    top: 42.5%;
+    top: 0;
     opacity: 0;
+    display: grid;
+    place-content: center;
+    height: 100%;
+    width: 100%;
     transition: opacity 0.4s;
 }
 
@@ -76,7 +79,8 @@ body{
 }
 
 .text-box{
-    width: 86%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .title h1{
