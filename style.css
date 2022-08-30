@@ -77,6 +77,7 @@ body{
 
 .img-box:hover::after, .img-box:hover::before{
     opacity: 1;
+    cursor: pointer;
 }
 
 .text-box{
@@ -145,7 +146,7 @@ body{
     color: hsl(215, 51%, 70%);
 }
 
-footer{
+.card-footer{
     display: flex;
     align-items: center;
     padding-top: 5%;
@@ -154,34 +155,34 @@ footer{
     border-top: 1px solid hsl(215, 51%, 70%, 30%);
 }
 
-footer img{
+.card-footer img{
     width: 11%;
     border: 1px solid white;
     border-radius: 15px;
 }
 
-footer p{
+.card-footer p{
     margin-left: 5%;
     color: hsl(215, 51%, 70%);
     font-weight: 300;
     font-size: 0.95em;
 }
 
-footer a{
+.card-footer a{
     text-decoration: none;
     color: white;
     transition: color 0.4s;
 }
 
-footer a:hover{
+.card-footer a:hover{
     color: hsl(178, 100%, 50%);
 }
 
-.attribution{
+footer{
     font-size: 0.78em;
     color: white;
 }
 
-.attribution a{
+footer a{
     color: hsl(178, 100%, 50%);
 }
