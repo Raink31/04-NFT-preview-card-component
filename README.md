@@ -15,7 +15,7 @@ Your challenge is to build out this card component and get it looking as close t
 
 ## Links
 
-- Solution URL: --
+- Solution URL: https://www.frontendmentor.io/solutions/nft-preview-card-component-challenge-responsive-html-and-css-v2-NISe6Cl087
 - Live Site URL: https://raink31.github.io/04-NFT-preview-card-component/
 
 ## Built with
